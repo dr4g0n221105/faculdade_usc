@@ -45,5 +45,7 @@ public static void main (String[] args) {
 	}
 	
 	System.out.println("o dia da semana é " + diaSemana);
+
+	scanner.close();
 }
 }
