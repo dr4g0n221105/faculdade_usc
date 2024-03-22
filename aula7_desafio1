@@ -15,7 +15,7 @@ public static void main (String[] args) {
 	int batimento = scanner.nextInt();
 	
 	if (idade > 60 && batimento > 150) {
-		System.out.println("o paciente " + nome + " tem caso de urgencia");
+		System.out.println("o paciente " + nome + "TEM CASO URGENCIA");
 	}
 	else if (idade > 60 && batimento <= 150) {
 		System.out.println("o paciente " + nome + " tem caso de urgencia moderada");
